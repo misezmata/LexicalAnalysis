@@ -1,0 +1,61 @@
+Line no 1: TOKEN <FOR> Lexeme for found
+Line no 1: TOKEN <LPAREN, (> Lexeme ( found
+Line no 1: TOKEN <INT> Lexeme int found
+Line no 1: TOKEN <ID, i> Lexeme i found
+Line no 1: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 1: TOKEN <CONST_INT, 0> Lexeme 0 found
+Line no 1: TOKEN <SEMICOLON, ;> Lexeme ; found
+Line no 1: TOKEN <ID, i> Lexeme i found
+Line no 1: TOKEN <RELOP, <> Lexeme < found
+Line no 1: TOKEN <ID, n> Lexeme n found
+Line no 1: TOKEN <SEMICOLON, ;> Lexeme ; found
+Line no 1: TOKEN <ID, i> Lexeme i found
+Line no 1: TOKEN <INCOP, ++> Lexeme ++ found
+Line no 1: TOKEN <RPAREN, )> Lexeme ) found
+Line no 1: TOKEN <LCURL, {> Lexeme { found
+Line no 2: TOKEN <IF> Lexeme if found
+Line no 2: TOKEN <LPAREN, (> Lexeme ( found
+Line no 2: TOKEN <ID, i> Lexeme i found
+Line no 2: TOKEN <RELOP, ==> Lexeme == found
+Line no 2: TOKEN <CONST_INT, 1> Lexeme 1 found
+Line no 2: TOKEN <RPAREN, )> Lexeme ) found
+Line no 2: TOKEN <DOUBLE> Lexeme double found
+Line no 2: TOKEN <ID, x> Lexeme x found
+Line no 2: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 2: TOKEN <CONST_INT, 1> Lexeme 1 found
+Line no 2: TOKEN <SEMICOLON, ;> Lexeme ; found
+Line no 3: TOKEN <ELSE> Lexeme else found
+Line no 3: TOKEN <FLOAT> Lexeme float found
+Line no 3: TOKEN <ID, y> Lexeme y found
+Line no 3: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 3: TOKEN <CONST_INT, 10> Lexeme 10 found
+Line no 3: TOKEN <SEMICOLON, ;> Lexeme ; found
+Line no 4: TOKEN <RETURN> Lexeme return found
+Line no 5: TOKEN <VOID> Lexeme void found
+Line no 6: TOKEN <CONTINUE> Lexeme continue found
+Line no 7: TOKEN <SWITCH> Lexeme switch found
+Line no 8: TOKEN <CONTINUE> Lexeme continue found
+Line no 9: TOKEN <CONST_FLOAT, 10.5> Lexeme 10.5 found
+Line no 10: TOKEN <CONST_INT, 12> Lexeme 12 found
+Line no 11: TOKEN <CONST_FLOAT, 12e5> Lexeme 12e5 found
+Line no 12: TOKEN <CONST_FLOAT, 12e-51> Lexeme 12e-51 found
+Line no 13: TOKEN <ID, c> Lexeme c found
+Line no 13: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 13: TOKEN <CONST_CHAR, c> Lexeme c found
+Line no 14: TOKEN <ID, c> Lexeme c found
+Line no 14: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 14: TOKEN <CONST_CHAR, .> Lexeme . found
+Line no 15: TOKEN <ID, c> Lexeme c found
+Line no 15: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 15: TOKEN <CONST_CHAR, 1> Lexeme 1 found
+Line no 16: TOKEN <ID, c> Lexeme c found
+Line no 16: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 17: TOKEN <ID, c> Lexeme c found
+Line no 17: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 18: TOKEN <ID, c> Lexeme c found
+Line no 18: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 18: TOKEN <CONST_CHAR, \\> Lexeme \\ found
+Line no 19: TOKEN <ID, c> Lexeme c found
+Line no 19: TOKEN <ASSIGNOP, => Lexeme = found
+Line no 19: TOKEN <CONST_CHAR, \'> Lexeme \' found
+Line no 20: TOKEN <RCURL, }> Lexeme } found
