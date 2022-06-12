@@ -15,6 +15,9 @@ public:
     void print(){
         cout<<" < "<<name<<" : "<<type<<"> ";
     }
+    void print(ofstream &lout){
+        lout<<"< "<<name<<" : "<<type<<"> ";
+    }
     void print2(){
         cout<<"{"<<endl;
         cout<<"\tthis: "<<this<<endl;

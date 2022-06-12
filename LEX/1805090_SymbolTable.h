@@ -79,4 +79,12 @@ public:
             if(cur != nullptr)cout<<endl;
         }
     }
+    void printAll(ofstream &lout){
+        ScopeTable* cur = currentTable;
+        while(cur != nullptr){
+            cur->print(lout);
+            cur = cur->parent;
+            // if(cur != nullptr)lout<<endl;
+        }
+    }
 };

@@ -10,6 +10,13 @@ class ScopeTable{
             cur = cur->next;
         }
     }
+    void printList(SymbolInfo* s, ofstream &lout){
+        SymbolInfo* cur = s;
+        while(cur != nullptr){
+            cur->print(lout);
+            cur = cur->next;
+        }
+    }
     bool insertTo(int hash, SymbolInfo* s){
         if(hash_table[hash] == nullptr){
             hash_table[hash] = s;
@@ -133,6 +140,15 @@ public:
             cout<<i<<" --> ";
             printList(hash_table[i]);
             cout<<endl;
+        }
+    }
+     void print(ofstream &lout){
+        lout<<endl<<"ScopeTable# "<<uniqueId<<endl;
+        for(int i=0; i<size; i++){
+            if(hash_table[i] == nullptr) continue;
+            lout<<i<<" --> ";
+            printList(hash_table[i], lout);
+            lout<<endl;
         }
     }
 };
